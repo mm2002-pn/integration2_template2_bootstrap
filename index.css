@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containe{
+    display: flex;
+   
+    align-items: center;
+   height: 20px;
+  
+ 
+   position: absolute; 
+   top: 50%; left: 50%; 
+   transform: translate(-50%, -50%);
+
+}
+.containe .info{
+    background-color: chocolate;
+    overflow: hidden;
+margin-left: 50px;
+  width: 150px;
+}
+
+.info .text{
+    
+  background-color: crimson;
+    height: 35px;
+    
+
+}
+
+.info .icons{
+   cursor: pointer;
+   max-height: 0;
+   overflow: hidden;
+   transition: all 0.7s ease;
+
+}
+
+.info:hover .icons{
+    
+    max-height: 20px;
+}

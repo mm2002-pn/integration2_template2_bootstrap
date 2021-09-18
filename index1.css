@@ -1,0 +1,74 @@
+
+
+.tai{
+    font-family: monospace;
+    font-style: oblique;
+    text-shadow: 0 0 2px gray, 0 0 5px gray, 0 0 10px gray;
+}
+.containe{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.containe .texte{
+   margin-left:80px ;
+}
+.address input{
+    display: inline-block;
+}
+
+footer{
+    color: rgb(128, 128, 128);
+   padding: 50px 70px;
+   margin-top: 100px;
+}
+input{
+    border-radius: 10px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parti1 .icone{
+    margin-left: 40px;
+    font-size: 30px;
+}
+.parti1{
+    display: inline-flex;
+    align-items: center;
+}
+.text1 p{
+    display: inline-flex;
+    margin-left: 40px;
+}
+.fa-instagram{
+    color:#bb0c03bb ;
+}
+.fa-twitter{
+    color:#00ebee  ;
+}
+
+.fa-facebook{
+    color:blue;
+}
+
+.fa-youtube{
+    color:#bb0b0b ;
+}
+
+.fa-yahoo{
+    color:violet ;
+}
+.control{
+    background-color: grey;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+
+
+
